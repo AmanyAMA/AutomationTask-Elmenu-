@@ -1,0 +1,119 @@
+{
+  "uid" : "b9f8dcfc5b3be556",
+  "name" : "USerCanNormalLogin",
+  "fullName" : "tests.TestCycleNotRegisterUser.USerCanNormalLogin",
+  "historyId" : "d315db579fc4d4c45ca29ef10ffb5416",
+  "time" : {
+    "start" : 1605457139426,
+    "stop" : 1605457144841,
+    "duration" : 5415
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartDriver",
+    "time" : {
+      "start" : 1605457123887,
+      "stop" : 1605457138698,
+      "duration" : 14811
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screanShotOnFaulier",
+    "time" : {
+      "start" : 1605457144845,
+      "stop" : 1605457144845,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "QuitDriver",
+    "time" : {
+      "start" : 1605457176597,
+      "stop" : 1605457177741,
+      "duration" : 1144
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.TestCycleNotRegisterUser"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TestCycleNotRegisterUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "USerCanNormalLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Elmenu-Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.TestCycleNotRegisterUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5K4HR8N"
+  }, {
+    "name" : "thread",
+    "value" : "22664@DESKTOP-5K4HR8N.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "amany_ated001@yahoo.com"
+  }, {
+    "name" : "arg1",
+    "value" : "Aa@123456"
+  }, {
+    "name" : "browser",
+    "value" : "ie"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9f8dcfc5b3be556.json",
+  "parameterValues" : [ "amany_ated001@yahoo.com", "Aa@123456", "ie" ]
+}

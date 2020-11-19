@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Elmenu-Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "tests.TestCycleNotRegisterUser",
+        "children" : [ {
+          "name" : "UserCanSearchRest",
+          "uid" : "ccc53a312b1cd39c",
+          "parentUid" : "71a1e2b8aad84d32a8fd0261596b0b6a",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1605457138841,
+            "stop" : 1605457138843,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ie" ]
+        }, {
+          "name" : "registerAndLoginViaFB",
+          "uid" : "f175df85351a70c5",
+          "parentUid" : "71a1e2b8aad84d32a8fd0261596b0b6a",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1605457138939,
+            "stop" : 1605457138939,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ie" ]
+        }, {
+          "name" : "UserChooseItemQuantity",
+          "uid" : "a8237e90f7b5561c",
+          "parentUid" : "71a1e2b8aad84d32a8fd0261596b0b6a",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1605457138942,
+            "stop" : 1605457138942,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ie" ]
+        }, {
+          "name" : "USerCanNormalLogin",
+          "uid" : "b9f8dcfc5b3be556",
+          "parentUid" : "71a1e2b8aad84d32a8fd0261596b0b6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605457139426,
+            "stop" : 1605457144841,
+            "duration" : 5415
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "amany_ated001@yahoo.com", "Aa@123456", "ie" ]
+        }, {
+          "name" : "USerCanNormalLogin",
+          "uid" : "851c8d0b771708c7",
+          "parentUid" : "71a1e2b8aad84d32a8fd0261596b0b6a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1605457144869,
+            "stop" : 1605457174964,
+            "duration" : 30095
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "", "", "ie" ]
+        } ],
+        "uid" : "71a1e2b8aad84d32a8fd0261596b0b6a"
+      } ],
+      "uid" : "c8097d2fbd4b0f2bd518eb60d78017cb"
+    } ],
+    "uid" : "4f888703374448b6ace37d0abb310ba1"
+  } ]
+}

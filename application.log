@@ -1,0 +1,5 @@
+2020-11-19 02:46:56,323  INFO [main] Testbase:42 - ****************************** calling driver open browser firefox *****************************************
+2020-11-19 02:47:07,705  INFO [main] Testbase:55 - ****************************** Open URl  *****************************************
+2020-11-19 02:47:13,299  INFO [main] CheckoutCycleForOldUser:35 - ****************************** Open URl  *****************************************
+2020-11-19 02:47:13,300  INFO [main] CheckoutCycleForOldUser:37 - ****************************** Open URl  *****************************************
+2020-11-19 02:47:13,316  INFO [main] CheckoutCycleForOldUser:43 - ********************** starting TestaddingitemstoCarts testcase  ******************

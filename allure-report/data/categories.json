@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.btn.btn-primary.signup-btn\"}\n  (Session info: MicrosoftEdge=86.0.622.68)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.68, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49211}, msedge: {msedgedriverVersion: 86.0.622.68 (48323fbb4a3734..., userDataDir: C:\\Users\\user\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c2a3610ad22f0737c9f1c16ba19120e9\n*** Element info: {Using=css selector, value=button.btn.btn-primary.signup-btn}",
+      "children" : [ {
+        "name" : "USerCanNormalLogin",
+        "uid" : "851c8d0b771708c7",
+        "parentUid" : "bb645787b579ce5e63bd8a052445cc50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605457144869,
+          "stop" : 1605457174964,
+          "duration" : 30095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "", "", "ie" ]
+      } ],
+      "uid" : "bb645787b579ce5e63bd8a052445cc50"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

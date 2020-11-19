@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.TestCycleNotRegisterUser",
+    "children" : [ {
+      "name" : "UserCanSearchRest",
+      "uid" : "ccc53a312b1cd39c",
+      "parentUid" : "ef411869335b10edea42c3415cdbf1f7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1605457138841,
+        "stop" : 1605457138843,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "ie" ]
+    }, {
+      "name" : "registerAndLoginViaFB",
+      "uid" : "f175df85351a70c5",
+      "parentUid" : "ef411869335b10edea42c3415cdbf1f7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1605457138939,
+        "stop" : 1605457138939,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "ie" ]
+    }, {
+      "name" : "UserChooseItemQuantity",
+      "uid" : "a8237e90f7b5561c",
+      "parentUid" : "ef411869335b10edea42c3415cdbf1f7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1605457138942,
+        "stop" : 1605457138942,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "ie" ]
+    }, {
+      "name" : "USerCanNormalLogin",
+      "uid" : "b9f8dcfc5b3be556",
+      "parentUid" : "ef411869335b10edea42c3415cdbf1f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605457139426,
+        "stop" : 1605457144841,
+        "duration" : 5415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "amany_ated001@yahoo.com", "Aa@123456", "ie" ]
+    }, {
+      "name" : "USerCanNormalLogin",
+      "uid" : "851c8d0b771708c7",
+      "parentUid" : "ef411869335b10edea42c3415cdbf1f7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1605457144869,
+        "stop" : 1605457174964,
+        "duration" : 30095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "", "", "ie" ]
+    } ],
+    "uid" : "tests.TestCycleNotRegisterUser"
+  } ]
+}

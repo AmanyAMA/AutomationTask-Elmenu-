@@ -1,0 +1,51 @@
+[ {
+  "uid" : "b9f8dcfc5b3be556",
+  "name" : "USerCanNormalLogin",
+  "time" : {
+    "start" : 1605457139426,
+    "stop" : 1605457144841,
+    "duration" : 5415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccc53a312b1cd39c",
+  "name" : "UserCanSearchRest",
+  "time" : {
+    "start" : 1605457138841,
+    "stop" : 1605457138843,
+    "duration" : 2
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "851c8d0b771708c7",
+  "name" : "USerCanNormalLogin",
+  "time" : {
+    "start" : 1605457144869,
+    "stop" : 1605457174964,
+    "duration" : 30095
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a8237e90f7b5561c",
+  "name" : "UserChooseItemQuantity",
+  "time" : {
+    "start" : 1605457138942,
+    "stop" : 1605457138942,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "f175df85351a70c5",
+  "name" : "registerAndLoginViaFB",
+  "time" : {
+    "start" : 1605457138939,
+    "stop" : 1605457138939,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,65 @@
+{
+  "uid" : "f175df85351a70c5",
+  "name" : "registerAndLoginViaFB",
+  "fullName" : "tests.TestCycleNotRegisterUser.registerAndLoginViaFB",
+  "historyId" : "4058eac7480038ae84ef5b161f4ca59a",
+  "time" : {
+    "start" : 1605457138939,
+    "stop" : 1605457138939,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.TestCycleNotRegisterUser"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TestCycleNotRegisterUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerAndLoginViaFB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Elmenu-Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.TestCycleNotRegisterUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5K4HR8N"
+  }, {
+    "name" : "thread",
+    "value" : "22664@DESKTOP-5K4HR8N.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "ie"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f175df85351a70c5.json",
+  "parameterValues" : [ "ie" ]
+}

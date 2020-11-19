@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"unknown","Sun Nov 15 18:18:58 EET 2020","Sun Nov 15 18:18:58 EET 2020","0","Elmenu-Suite","Test","tests.TestCycleNotRegisterUser","tests.TestCycleNotRegisterUser","registerAndLoginViaFB","registerAndLoginViaFB",""
+"broken","Sun Nov 15 18:19:04 EET 2020","Sun Nov 15 18:19:34 EET 2020","30095","Elmenu-Suite","Test","tests.TestCycleNotRegisterUser","tests.TestCycleNotRegisterUser","USerCanNormalLogin","USerCanNormalLogin",""
+"unknown","Sun Nov 15 18:18:58 EET 2020","Sun Nov 15 18:18:58 EET 2020","2","Elmenu-Suite","Test","tests.TestCycleNotRegisterUser","tests.TestCycleNotRegisterUser","UserCanSearchRest","UserCanSearchRest",""
+"unknown","Sun Nov 15 18:18:58 EET 2020","Sun Nov 15 18:18:58 EET 2020","0","Elmenu-Suite","Test","tests.TestCycleNotRegisterUser","tests.TestCycleNotRegisterUser","UserChooseItemQuantity","UserChooseItemQuantity",""
+"passed","Sun Nov 15 18:18:59 EET 2020","Sun Nov 15 18:19:04 EET 2020","5415","Elmenu-Suite","Test","tests.TestCycleNotRegisterUser","tests.TestCycleNotRegisterUser","USerCanNormalLogin","USerCanNormalLogin",""

@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5K4HR8N",
+    "children" : [ {
+      "name" : "22664@DESKTOP-5K4HR8N.main(1)",
+      "children" : [ {
+        "name" : "UserChooseItemQuantity",
+        "uid" : "a8237e90f7b5561c",
+        "parentUid" : "29fbac045ded0a0cb58a1d546c90e0dc",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1605457138942,
+          "stop" : 1605457138942,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      }, {
+        "name" : "USerCanNormalLogin",
+        "uid" : "b9f8dcfc5b3be556",
+        "parentUid" : "29fbac045ded0a0cb58a1d546c90e0dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605457139426,
+          "stop" : 1605457144841,
+          "duration" : 5415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "amany_ated001@yahoo.com", "Aa@123456", "ie" ]
+      }, {
+        "name" : "UserCanSearchRest",
+        "uid" : "ccc53a312b1cd39c",
+        "parentUid" : "29fbac045ded0a0cb58a1d546c90e0dc",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1605457138841,
+          "stop" : 1605457138843,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      }, {
+        "name" : "registerAndLoginViaFB",
+        "uid" : "f175df85351a70c5",
+        "parentUid" : "29fbac045ded0a0cb58a1d546c90e0dc",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1605457138939,
+          "stop" : 1605457138939,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      }, {
+        "name" : "USerCanNormalLogin",
+        "uid" : "851c8d0b771708c7",
+        "parentUid" : "29fbac045ded0a0cb58a1d546c90e0dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605457144869,
+          "stop" : 1605457174964,
+          "duration" : 30095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "", "", "ie" ]
+      } ],
+      "uid" : "29fbac045ded0a0cb58a1d546c90e0dc"
+    } ],
+    "uid" : "245b2ac540a81813b189efa6091c5808"
+  } ]
+}

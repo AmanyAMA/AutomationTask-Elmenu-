@@ -1,0 +1,98 @@
+{
+  "118c6ec36dc8d47468e9cb2a9eab9dbc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8237e90f7b5561c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1605457138942,
+        "stop" : 1605457138942,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5680c62df2d60f57a017d5265f94a557" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccc53a312b1cd39c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1605457138841,
+        "stop" : 1605457138843,
+        "duration" : 2
+      }
+    } ]
+  },
+  "4058eac7480038ae84ef5b161f4ca59a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f175df85351a70c5",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1605457138939,
+        "stop" : 1605457138939,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d315db579fc4d4c45ca29ef10ffb5416" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9f8dcfc5b3be556",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605457139426,
+        "stop" : 1605457144841,
+        "duration" : 5415
+      }
+    } ]
+  },
+  "2693b872ca3c8629fb5a0905928d4b70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "851c8d0b771708c7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.btn.btn-primary.signup-btn\"}\n  (Session info: MicrosoftEdge=86.0.622.68)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.68, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49211}, msedge: {msedgedriverVersion: 86.0.622.68 (48323fbb4a3734..., userDataDir: C:\\Users\\user\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c2a3610ad22f0737c9f1c16ba19120e9\n*** Element info: {Using=css selector, value=button.btn.btn-primary.signup-btn}",
+      "time" : {
+        "start" : 1605457144869,
+        "stop" : 1605457174964,
+        "duration" : 30095
+      }
+    } ]
+  }
+}
