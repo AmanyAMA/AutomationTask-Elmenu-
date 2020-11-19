@@ -108,14 +108,14 @@ public class FirstOrderNewUser extends Testbase  {
 		log.info("******************************  SetLocation testcase *****************************************");
 	}
 
-// Click on checkout and compelete the process
+// Click on checkout and complete the process
 	@Test (enabled= true,dependsOnMethods="UserChooseItemAddToCart")
 	public void UserCanCheckout() throws InterruptedException 
 	{
 		log.info("****************************** Starting UserCanCheckout test case *****************************************");
 		ckoutObj = new CheckOutPage(driver);
 		ckoutObj.UserClickonCartCheckout();
-		Thread.sleep(30000);
+		//Thread.sleep(30000);
 		System.out.println(ckoutObj.ChekouttMsg.getText());
 		Assert.assertTrue(ckoutObj.ChekouttMsg.getText().contains("Summary"));
 		log.info("****************************** Starting UserCanCheckout test case *****************************************");

@@ -1,5 +1,12 @@
-2020-11-19 02:46:56,323  INFO [main] Testbase:42 - ****************************** calling driver open browser firefox *****************************************
-2020-11-19 02:47:07,705  INFO [main] Testbase:55 - ****************************** Open URl  *****************************************
-2020-11-19 02:47:13,299  INFO [main] CheckoutCycleForOldUser:35 - ****************************** Open URl  *****************************************
-2020-11-19 02:47:13,300  INFO [main] CheckoutCycleForOldUser:37 - ****************************** Open URl  *****************************************
-2020-11-19 02:47:13,316  INFO [main] CheckoutCycleForOldUser:43 - ********************** starting TestaddingitemstoCarts testcase  ******************
+2020-11-19 23:48:04,307  INFO [main] Testbase:35 - ****************************** start driver  open browser chrome *****************************************
+2020-11-19 23:48:11,592  INFO [main] Testbase:55 - ****************************** Open URl  *****************************************
+2020-11-19 23:48:14,065  INFO [main] EditOrderQuantity:38 - ****************************** Open URl  *****************************************
+2020-11-19 23:48:14,132  INFO [main] EditOrderQuantity:45 - ********************** starting TestaddingitemstoCarts testcase  ******************
+2020-11-19 23:48:29,478  INFO [main] EditOrderQuantity:49 - ********************** Ending TestaddingitemstoCarts testcase  ******************
+2020-11-19 23:48:29,485  INFO [main] EditOrderQuantity:56 - ********************** starting LoginViaFB testcase  ******************
+2020-11-19 23:48:49,199  INFO [main] EditOrderQuantity:60 - ********************** Ending LoginViaFB testcase  *******************
+2020-11-19 23:48:49,204  INFO [main] EditOrderQuantity:68 - ****************************** Starting SetDeliveryLocation  test case *****************************************
+2020-11-19 23:48:49,583  INFO [main] Testbase:80 - ****************************** Taking screenshot on failuare  *****************************************
+2020-11-19 23:48:49,589  INFO [main] EditOrderQuantity:90 - ****************************** Starting DeleteAllItemFromCart test case *****************************************
+2020-11-19 23:49:05,401  INFO [main] EditOrderQuantity:93 - ****************************** Ending DeleteAllItemFromCart test case *****************************************
+2020-11-19 23:49:06,120  INFO [main] Testbase:67 - ****************************** Quit driver  *****************************************

@@ -26,9 +26,9 @@ public class RestrauntDetailspage extends Pagebase {
 	@FindBy(css="div[class='resturant-name']>h1")
 	public WebElement RestTitle;
 
-	@FindBy(css="button[class='quantity-btn.add']")
+	@FindBy(css="button[class$='add']")
 	WebElement addQuantity;	
-	@FindBy(css="button[class='quantity-btn.subtract']")
+	@FindBy(css="button[class$=subtract']")
 	WebElement substractQuantity;
 	
 	public void ChooseeorderDetails() 
@@ -41,9 +41,10 @@ public class RestrauntDetailspage extends Pagebase {
 	public void TestnewOrderitem1() 
 	{
 		clickElment(sideMenuItem1);
-		clickElment(CardItem1);
+		clickElment(CardItem);
 		clickElment(addQuantity);
 		clickElment(addToCartBtn);
+
 
 	}
 	public void UsereditlorderQuantity()
@@ -52,6 +53,8 @@ public class RestrauntDetailspage extends Pagebase {
 		clickElment(addQuantity);
 		clickElment(addQuantity);
 		clickElment(substractQuantity);
+		clickElment(addToCartBtn);
+
 
 	}
 }
