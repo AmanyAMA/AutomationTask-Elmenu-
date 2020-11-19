@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" total="6" passed="4">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53796" started-at="2020-11-19T21:48:11Z" finished-at="2020-11-19T21:49:05Z">
+  <suite name="Default suite" duration-ms="31080" started-at="2020-11-19T22:17:22Z" finished-at="2020-11-19T22:17:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53796" started-at="2020-11-19T21:48:11Z" finished-at="2020-11-19T21:49:05Z">
-      <class name="tests.EditOrderQuantity">
-        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.EditOrderQuantity@193932a]" name="StartDriver" is-config="true" duration-ms="10981" started-at="2020-11-19T23:48:00Z" finished-at="2020-11-19T23:48:11Z">
+    <test name="Default test" duration-ms="31080" started-at="2020-11-19T22:17:22Z" finished-at="2020-11-19T22:17:53Z">
+      <class name="tests.FirstOrderNewUser">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="StartDriver" is-config="true" duration-ms="12251" started-at="2020-11-20T00:17:10Z" finished-at="2020-11-20T00:17:22Z">
           <params>
             <param index="0">
               <value>
@@ -18,149 +18,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="NavigateTOrestDetails()[pri:1, instance:tests.EditOrderQuantity@193932a]" name="NavigateTOrestDetails" duration-ms="2444" started-at="2020-11-19T23:48:11Z" finished-at="2020-11-19T23:48:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavigateTOrestDetails -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.EditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="7" started-at="2020-11-19T23:48:14Z" finished-at="2020-11-19T23:48:14Z">
+        <test-method status="PASS" signature="USerCanNormalLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.FirstOrderNewUser@159f197]" name="USerCanNormalLogin" duration-ms="3526" started-at="2020-11-20T00:17:23Z" data-provider="Excel" finished-at="2020-11-20T00:17:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NavigateTOrestDetails status=SUCCESS method=EditOrderQuantity.NavigateTOrestDetails()[pri:1, instance:tests.EditOrderQuantity@193932a] output={null}]]]>
+                <![CDATA[amany_ated001@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aa@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- USerCanNormalLogin -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="15" started-at="2020-11-20T00:17:27Z" finished-at="2020-11-20T00:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=USerCanNormalLogin status=SUCCESS method=FirstOrderNewUser.USerCanNormalLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="TestaddingitemstoCarts()[pri:2, instance:tests.EditOrderQuantity@193932a]" name="TestaddingitemstoCarts" duration-ms="15348" started-at="2020-11-19T23:48:14Z" finished-at="2020-11-19T23:48:29Z">
+        <test-method status="PASS" signature="UserCanSearchRest()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanSearchRest" duration-ms="9341" started-at="2020-11-20T00:17:27Z" depends-on-methods="tests.FirstOrderNewUser.USerCanNormalLogin" finished-at="2020-11-20T00:17:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestaddingitemstoCarts -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.EditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="1" started-at="2020-11-19T23:48:29Z" finished-at="2020-11-19T23:48:29Z">
+        </test-method> <!-- UserCanSearchRest -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T00:17:36Z" finished-at="2020-11-20T00:17:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestaddingitemstoCarts status=SUCCESS method=EditOrderQuantity.TestaddingitemstoCarts()[pri:2, instance:tests.EditOrderQuantity@193932a] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanSearchRest status=SUCCESS method=FirstOrderNewUser.UserCanSearchRest()[pri:0, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="LoginViaFB()[pri:3, instance:tests.EditOrderQuantity@193932a]" name="LoginViaFB" duration-ms="19717" started-at="2020-11-19T23:48:29Z" finished-at="2020-11-19T23:48:49Z">
+        <test-method status="PASS" signature="UserChooseItemAddToCart()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserChooseItemAddToCart" duration-ms="15704" started-at="2020-11-20T00:17:36Z" depends-on-methods="tests.FirstOrderNewUser.UserCanSearchRest" finished-at="2020-11-20T00:17:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginViaFB -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.EditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="1" started-at="2020-11-19T23:48:49Z" finished-at="2020-11-19T23:48:49Z">
+        </test-method> <!-- UserChooseItemAddToCart -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T00:17:52Z" finished-at="2020-11-20T00:17:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginViaFB status=SUCCESS method=EditOrderQuantity.LoginViaFB()[pri:3, instance:tests.EditOrderQuantity@193932a] output={null}]]]>
+                <![CDATA[[TestResult name=UserChooseItemAddToCart status=SUCCESS method=FirstOrderNewUser.UserChooseItemAddToCart()[pri:0, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="FAIL" signature="SetDeliveryLocation()[pri:0, instance:tests.EditOrderQuantity@193932a]" name="SetDeliveryLocation" duration-ms="3" started-at="2020-11-19T23:48:49Z" depends-on-methods="tests.EditOrderQuantity.LoginViaFB" finished-at="2020-11-19T23:48:49Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at tests.EditOrderQuantity.SetDeliveryLocation(EditOrderQuantity.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="UserCanCheckout()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanCheckout" duration-ms="1632" started-at="2020-11-20T00:17:52Z" depends-on-methods="tests.FirstOrderNewUser.UserChooseItemAddToCart" finished-at="2020-11-20T00:17:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetDeliveryLocation -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.EditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="377" started-at="2020-11-19T23:48:49Z" finished-at="2020-11-19T23:48:49Z">
+        </test-method> <!-- UserCanCheckout -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="3" started-at="2020-11-20T00:17:53Z" finished-at="2020-11-20T00:17:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SetDeliveryLocation status=FAILURE method=EditOrderQuantity.SetDeliveryLocation()[pri:0, instance:tests.EditOrderQuantity@193932a] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanCheckout status=SUCCESS method=FirstOrderNewUser.UserCanCheckout()[pri:0, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="SKIP" signature="TestedititemsinCarts()[pri:5, instance:tests.EditOrderQuantity@193932a]" name="TestedititemsinCarts" duration-ms="0" started-at="2020-11-19T23:48:49Z" depends-on-methods="tests.EditOrderQuantity.SetDeliveryLocation" finished-at="2020-11-19T23:48:49Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method EditOrderQuantity.TestedititemsinCarts()[pri:5, instance:tests.EditOrderQuantity@193932a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method EditOrderQuantity.TestedititemsinCarts()[pri:5, instance:tests.EditOrderQuantity@193932a] depends on not successfully finished methods
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1028)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:746)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
-	at org.testng.TestNG.runSuites(TestNG.java:1104)
-	at org.testng.TestNG.run(TestNG.java:1076)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestedititemsinCarts -->
-        <test-method status="PASS" signature="DeleteAllItemFromCart()[pri:6, instance:tests.EditOrderQuantity@193932a]" name="DeleteAllItemFromCart" duration-ms="15815" started-at="2020-11-19T23:48:49Z" finished-at="2020-11-19T23:49:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteAllItemFromCart -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.EditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="1" started-at="2020-11-19T23:49:05Z" finished-at="2020-11-19T23:49:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=DeleteAllItemFromCart status=SUCCESS method=EditOrderQuantity.DeleteAllItemFromCart()[pri:6, instance:tests.EditOrderQuantity@193932a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.EditOrderQuantity@193932a]" name="QuitDriver" is-config="true" duration-ms="701" started-at="2020-11-19T23:49:05Z" finished-at="2020-11-19T23:49:06Z">
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="QuitDriver" is-config="true" duration-ms="839" started-at="2020-11-20T00:17:53Z" finished-at="2020-11-20T00:17:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitDriver -->
-      </class> <!-- tests.EditOrderQuantity -->
+      </class> <!-- tests.FirstOrderNewUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

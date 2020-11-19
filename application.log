@@ -1,12 +1,13 @@
-2020-11-19 23:48:04,307  INFO [main] Testbase:35 - ****************************** start driver  open browser chrome *****************************************
-2020-11-19 23:48:11,592  INFO [main] Testbase:55 - ****************************** Open URl  *****************************************
-2020-11-19 23:48:14,065  INFO [main] EditOrderQuantity:38 - ****************************** Open URl  *****************************************
-2020-11-19 23:48:14,132  INFO [main] EditOrderQuantity:45 - ********************** starting TestaddingitemstoCarts testcase  ******************
-2020-11-19 23:48:29,478  INFO [main] EditOrderQuantity:49 - ********************** Ending TestaddingitemstoCarts testcase  ******************
-2020-11-19 23:48:29,485  INFO [main] EditOrderQuantity:56 - ********************** starting LoginViaFB testcase  ******************
-2020-11-19 23:48:49,199  INFO [main] EditOrderQuantity:60 - ********************** Ending LoginViaFB testcase  *******************
-2020-11-19 23:48:49,204  INFO [main] EditOrderQuantity:68 - ****************************** Starting SetDeliveryLocation  test case *****************************************
-2020-11-19 23:48:49,583  INFO [main] Testbase:80 - ****************************** Taking screenshot on failuare  *****************************************
-2020-11-19 23:48:49,589  INFO [main] EditOrderQuantity:90 - ****************************** Starting DeleteAllItemFromCart test case *****************************************
-2020-11-19 23:49:05,401  INFO [main] EditOrderQuantity:93 - ****************************** Ending DeleteAllItemFromCart test case *****************************************
-2020-11-19 23:49:06,120  INFO [main] Testbase:67 - ****************************** Quit driver  *****************************************
+2020-11-20 00:17:15,248  INFO [main] Testbase:35 - ****************************** start driver  open browser chrome *****************************************
+2020-11-20 00:17:22,753  INFO [main] Testbase:55 - ****************************** Open URl  *****************************************
+2020-11-20 00:17:23,569  INFO [main] FirstOrderNewUser:48 - ****************************** Starting USerCanNormalLogin test case *****************************************
+2020-11-20 00:17:27,034  INFO [main] FirstOrderNewUser:56 - ****************************** Ending USerCanNormalLogin test case *****************************************
+2020-11-20 00:17:27,153  INFO [main] FirstOrderNewUser:66 - ****************************** Starting USerSearchResturant(MAc) test case *****************************************
+2020-11-20 00:17:36,491  INFO [main] FirstOrderNewUser:78 - ****************************** Ending USerSearchResturant(MAc) test case *****************************************
+2020-11-20 00:17:36,504  INFO [main] FirstOrderNewUser:88 - ****************************** Starting UserChooseItemAddToCart(Chicken-bigtesy) test case *****************************************
+2020-11-20 00:17:37,681  INFO [main] FirstOrderNewUser:93 - ****************************** Ending UserChooseItemAddToCart(Chicken-bigteasty) test case *****************************************
+2020-11-20 00:17:37,681  INFO [main] FirstOrderNewUser:94 - ******************************  SetLocation testcase *****************************************
+2020-11-20 00:17:52,203  INFO [main] FirstOrderNewUser:108 - ******************************  SetLocation testcase *****************************************
+2020-11-20 00:17:52,212  INFO [main] FirstOrderNewUser:115 - ****************************** Starting UserCanCheckout test case *****************************************
+2020-11-20 00:17:53,839  INFO [main] FirstOrderNewUser:121 - ****************************** Starting UserCanCheckout test case *****************************************
+2020-11-20 00:17:54,713  INFO [main] Testbase:67 - ****************************** Quit driver  *****************************************

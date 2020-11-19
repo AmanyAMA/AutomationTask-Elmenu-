@@ -31,7 +31,7 @@ public class CheckOutPage extends Pagebase {
 	@FindBy(css="div[class^='basket-container']>div>:nth-child(2)")
 	public WebElement AddtoCartMsg;
 	
-	@FindBy(css="div[class$='step-1-side-content']>div>:nth-child(2)>h4")
+	@FindBy(css="div[class$='step-2-side-content']>div>:nth-child(2)>h4")
 	public WebElement ChekouttMsg;
 	
 	@FindBy(css="div[class^='act-table-cell']>div>h5>a")
