@@ -32,7 +32,7 @@ public class secondEditOrderQuantity extends Testbase {
 		log.info("****************************** Open URl  *****************************************");
 		//driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);	
 	}
-	
+
 	@Test(priority=2)
 	public void TestaddingitemstoCarts() throws InterruptedException 
 	{
@@ -58,8 +58,8 @@ public class secondEditOrderQuantity extends Testbase {
 	@Test (dependsOnMethods="LoginViaFB")
 	public void SetDeliveryLocation() throws InterruptedException 
 	{
-		
 		log.info("****************************** Starting SetDeliveryLocation  test case *****************************************");
+		loctionObj= new Location(driver);
 		loctionObj.setDeliveryAreaText("maadi");
 		Thread.sleep(5000);
 		loctionObj.setDeliveryzone();

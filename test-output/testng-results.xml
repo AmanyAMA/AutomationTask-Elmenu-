@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31080" started-at="2020-11-19T22:17:22Z" finished-at="2020-11-19T22:17:53Z">
+  <suite name="Default suite" duration-ms="29542" started-at="2020-11-19T23:55:39Z" finished-at="2020-11-19T23:56:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31080" started-at="2020-11-19T22:17:22Z" finished-at="2020-11-19T22:17:53Z">
+    <test name="Default test" duration-ms="29542" started-at="2020-11-19T23:55:39Z" finished-at="2020-11-19T23:56:08Z">
       <class name="tests.FirstOrderNewUser">
-        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="StartDriver" is-config="true" duration-ms="12251" started-at="2020-11-20T00:17:10Z" finished-at="2020-11-20T00:17:22Z">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="StartDriver" is-config="true" duration-ms="9955" started-at="2020-11-20T01:55:29Z" finished-at="2020-11-20T01:55:39Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="USerCanNormalLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.FirstOrderNewUser@159f197]" name="USerCanNormalLogin" duration-ms="3526" started-at="2020-11-20T00:17:23Z" data-provider="Excel" finished-at="2020-11-20T00:17:27Z">
+        <test-method status="PASS" signature="USerCanNormalLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.FirstOrderNewUser@159f197]" name="USerCanNormalLogin" duration-ms="4427" started-at="2020-11-20T01:55:39Z" data-provider="Excel" finished-at="2020-11-20T01:55:44Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- USerCanNormalLogin -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="15" started-at="2020-11-20T00:17:27Z" finished-at="2020-11-20T00:17:27Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="9" started-at="2020-11-20T01:55:44Z" finished-at="2020-11-20T01:55:44Z">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="UserCanSearchRest()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanSearchRest" duration-ms="9341" started-at="2020-11-20T00:17:27Z" depends-on-methods="tests.FirstOrderNewUser.USerCanNormalLogin" finished-at="2020-11-20T00:17:36Z">
+        <test-method status="PASS" signature="UserCanSearchRest()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanSearchRest" duration-ms="8277" started-at="2020-11-20T01:55:44Z" depends-on-methods="tests.FirstOrderNewUser.USerCanNormalLogin" finished-at="2020-11-20T01:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchRest -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T00:17:36Z" finished-at="2020-11-20T00:17:36Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T01:55:52Z" finished-at="2020-11-20T01:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="UserChooseItemAddToCart()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserChooseItemAddToCart" duration-ms="15704" started-at="2020-11-20T00:17:36Z" depends-on-methods="tests.FirstOrderNewUser.UserCanSearchRest" finished-at="2020-11-20T00:17:52Z">
+        <test-method status="PASS" signature="UserChooseItemAddToCart()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserChooseItemAddToCart" duration-ms="15055" started-at="2020-11-20T01:55:52Z" depends-on-methods="tests.FirstOrderNewUser.UserCanSearchRest" finished-at="2020-11-20T01:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserChooseItemAddToCart -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T00:17:52Z" finished-at="2020-11-20T00:17:52Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="1" started-at="2020-11-20T01:56:07Z" finished-at="2020-11-20T01:56:07Z">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="UserCanCheckout()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanCheckout" duration-ms="1632" started-at="2020-11-20T00:17:52Z" depends-on-methods="tests.FirstOrderNewUser.UserChooseItemAddToCart" finished-at="2020-11-20T00:17:53Z">
+        <test-method status="PASS" signature="UserCanCheckout()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanCheckout" duration-ms="1093" started-at="2020-11-20T01:56:07Z" depends-on-methods="tests.FirstOrderNewUser.UserChooseItemAddToCart" finished-at="2020-11-20T01:56:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanCheckout -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="3" started-at="2020-11-20T00:17:53Z" finished-at="2020-11-20T00:17:53Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T01:56:08Z" finished-at="2020-11-20T01:56:08Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="QuitDriver" is-config="true" duration-ms="839" started-at="2020-11-20T00:17:53Z" finished-at="2020-11-20T00:17:54Z">
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="QuitDriver" is-config="true" duration-ms="823" started-at="2020-11-20T01:56:08Z" finished-at="2020-11-20T01:56:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitDriver -->

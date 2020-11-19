@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.FirstOrderNewUser">
+      <class name="tests.secondEditOrderQuantity">
         <methods>
-          <include name="USerCanNormalLogin"/>
-          <include name="UserCanCheckout"/>
+          <include name="SetDeliveryLocation"/>
           <include name="StartDriver"/>
-          <include name="UserCanSearchRest"/>
+          <include name="LoginViaFB"/>
           <include name="QuitDriver"/>
-          <include name="UserChooseItemAddToCart"/>
+          <include name="DeleteAllItemFromCart"/>
+          <include name="TestedititemsinCarts"/>
           <include name="screanShotOnFaulier"/>
         </methods>
-      </class> <!-- tests.FirstOrderNewUser -->
+      </class> <!-- tests.secondEditOrderQuantity -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

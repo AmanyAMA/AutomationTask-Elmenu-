@@ -20,16 +20,23 @@ public class RestrauntDetailspage extends Pagebase {
 	@FindBy(css="div[id='cat-0-0']>div>:nth-child(2)")
 	WebElement CardItem1;	
 		
-	@FindBy(css="button.btn-primary.add-basket")
+	@FindBy(css=".add-basket")//class="btn-primary add-basket"
 	WebElement addToCartBtn;
 	
 	@FindBy(css="div[class='resturant-name']>h1")
 	public WebElement RestTitle;
 
-	@FindBy(css="button[class$='add']")
+	@FindBy(css=".quantity-btn.add")
 	WebElement addQuantity;	
-	@FindBy(css="button[class$=subtract']")
+	
+	@FindBy(css=".quantity-btn.subtract")
 	WebElement substractQuantity;
+	
+	@FindBy(css="#item-view-modal .add-basket")
+	WebElement EditaddQuantity;
+	
+	@FindBy(css="#item-view-modal .subtract")
+	WebElement EditsubstractQuantity;
 	
 	public void ChooseeorderDetails() 
 	{
@@ -49,10 +56,10 @@ public class RestrauntDetailspage extends Pagebase {
 	}
 	public void UsereditlorderQuantity()
 	{
-		clickElment(addQuantity);
-		clickElment(addQuantity);
-		clickElment(addQuantity);
-		clickElment(substractQuantity);
+		clickElment(EditaddQuantity);
+		clickElment(EditaddQuantity);
+		clickElment(EditaddQuantity);
+		clickElment(EditsubstractQuantity);
 		clickElment(addToCartBtn);
 
 

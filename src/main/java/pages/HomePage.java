@@ -10,7 +10,7 @@ public class HomePage extends Pagebase {
 		super(driver);
 	}
 	
-	@FindBy(css="button.btn.btn-primary.signup-btn")
+	@FindBy(css=".not-loggedin .signup-btn")
 	WebElement signUpLink;
 	 public void OpenSignUpLink() 
 	 {

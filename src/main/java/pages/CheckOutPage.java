@@ -10,16 +10,16 @@ public class CheckOutPage extends Pagebase {
 		super(driver);
 	}
 	
-	@FindBy(css="div[class^='basket-actions']>button")
+	@FindBy(css=".checkout-btn")
 	WebElement chekoutBtn;
 	
-	@FindBy(css="div[class ='cost-row total']>:nth-child(2)")
+	@FindBy(css=".total")
 	WebElement totalPrice;
 	
-	@FindBy(css="div[class^='basket-actions']>:nth-child(2)")
+	@FindBy(css=".restaurant-info .remove-all")
 	WebElement removeAllBtn;
 	
-	@FindBy(css="div[class='cart-btn']")
+	@FindBy(css=".cart-btn]")
 	public WebElement CartIcon;
 	
 	@FindBy(css="ul[class='addresses-list']>li>div>button")
