@@ -2,12 +2,12 @@
 <testng-results skipped="2" failed="2" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="258848" started-at="2020-11-20T00:40:45Z" finished-at="2020-11-20T00:45:04Z">
+  <suite name="Default suite" duration-ms="257624" started-at="2020-11-20T00:46:44Z" finished-at="2020-11-20T00:51:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="258848" started-at="2020-11-20T00:40:45Z" finished-at="2020-11-20T00:45:04Z">
+    <test name="Default test" duration-ms="257624" started-at="2020-11-20T00:46:44Z" finished-at="2020-11-20T00:51:02Z">
       <class name="tests.secondEditOrderQuantity">
-        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="StartDriver" is-config="true" duration-ms="9926" started-at="2020-11-20T02:40:35Z" finished-at="2020-11-20T02:40:45Z">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="StartDriver" is-config="true" duration-ms="14227" started-at="2020-11-20T02:46:30Z" finished-at="2020-11-20T02:46:44Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="NavigateTOrestDetails()[pri:1, instance:tests.secondEditOrderQuantity@193932a]" name="NavigateTOrestDetails" duration-ms="1802" started-at="2020-11-20T02:40:45Z" finished-at="2020-11-20T02:40:47Z">
+        <test-method status="PASS" signature="NavigateTOrestDetails()[pri:1, instance:tests.secondEditOrderQuantity@193932a]" name="NavigateTOrestDetails" duration-ms="1939" started-at="2020-11-20T02:46:44Z" finished-at="2020-11-20T02:46:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateTOrestDetails -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="22" started-at="2020-11-20T02:40:47Z" finished-at="2020-11-20T02:40:47Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="13" started-at="2020-11-20T02:46:46Z" finished-at="2020-11-20T02:46:46Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="TestaddingitemstoCarts()[pri:2, instance:tests.secondEditOrderQuantity@193932a]" name="TestaddingitemstoCarts" duration-ms="15621" started-at="2020-11-20T02:40:47Z" finished-at="2020-11-20T02:41:03Z">
+        <test-method status="PASS" signature="TestaddingitemstoCarts()[pri:2, instance:tests.secondEditOrderQuantity@193932a]" name="TestaddingitemstoCarts" duration-ms="14165" started-at="2020-11-20T02:46:46Z" finished-at="2020-11-20T02:47:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestaddingitemstoCarts -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="1" started-at="2020-11-20T02:41:03Z" finished-at="2020-11-20T02:41:03Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T02:47:00Z" finished-at="2020-11-20T02:47:00Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="FAIL" signature="LoginViaFB()[pri:3, instance:tests.secondEditOrderQuantity@193932a]" name="LoginViaFB" duration-ms="120143" started-at="2020-11-20T02:41:03Z" finished-at="2020-11-20T02:43:03Z">
+        <test-method status="FAIL" signature="LoginViaFB()[pri:3, instance:tests.secondEditOrderQuantity@193932a]" name="LoginViaFB" duration-ms="120115" started-at="2020-11-20T02:47:00Z" finished-at="2020-11-20T02:49:00Z">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -56,8 +56,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:32491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ebfb76ba66069a79978cc9f5627cf71f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -65,8 +65,8 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:32491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ebfb76ba66069a79978cc9f5627cf71f
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -86,7 +86,7 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy21.click(Unknown Source)
 	at pages.Pagebase.clickElment(Pagebase.java:17)
-	at pages.LoginPage.UserSwitchToFBToLogin(LoginPage.java:33)
+	at pages.LoginPage.UserSwitchToFBToLogin(LoginPage.java:35)
 	at tests.secondEditOrderQuantity.LoginViaFB(secondEditOrderQuantity.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -119,7 +119,7 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginViaFB -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="464" started-at="2020-11-20T02:43:03Z" finished-at="2020-11-20T02:43:03Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="512" started-at="2020-11-20T02:49:00Z" finished-at="2020-11-20T02:49:01Z">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="SKIP" signature="SetDeliveryLocation()[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="SetDeliveryLocation" duration-ms="0" started-at="2020-11-20T02:43:03Z" depends-on-methods="tests.secondEditOrderQuantity.LoginViaFB" finished-at="2020-11-20T02:43:03Z">
+        <test-method status="SKIP" signature="SetDeliveryLocation()[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="SetDeliveryLocation" duration-ms="0" started-at="2020-11-20T02:49:01Z" depends-on-methods="tests.secondEditOrderQuantity.LoginViaFB" finished-at="2020-11-20T02:49:01Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method secondEditOrderQuantity.SetDeliveryLocation()[pri:0, instance:tests.secondEditOrderQuantity@193932a] depends on not successfully finished methods]]>
@@ -161,7 +161,7 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetDeliveryLocation -->
-        <test-method status="SKIP" signature="TestedititemsinCarts()[pri:5, instance:tests.secondEditOrderQuantity@193932a]" name="TestedititemsinCarts" duration-ms="0" started-at="2020-11-20T02:43:03Z" depends-on-methods="tests.secondEditOrderQuantity.SetDeliveryLocation" finished-at="2020-11-20T02:43:03Z">
+        <test-method status="SKIP" signature="TestedititemsinCarts()[pri:5, instance:tests.secondEditOrderQuantity@193932a]" name="TestedititemsinCarts" duration-ms="0" started-at="2020-11-20T02:49:01Z" depends-on-methods="tests.secondEditOrderQuantity.SetDeliveryLocation" finished-at="2020-11-20T02:49:01Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method secondEditOrderQuantity.TestedititemsinCarts()[pri:5, instance:tests.secondEditOrderQuantity@193932a] depends on not successfully finished methods]]>
@@ -192,7 +192,7 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestedititemsinCarts -->
-        <test-method status="FAIL" signature="DeleteAllItemFromCart()[pri:6, instance:tests.secondEditOrderQuantity@193932a]" name="DeleteAllItemFromCart" duration-ms="120131" started-at="2020-11-20T02:43:03Z" finished-at="2020-11-20T02:45:04Z">
+        <test-method status="FAIL" signature="DeleteAllItemFromCart()[pri:6, instance:tests.secondEditOrderQuantity@193932a]" name="DeleteAllItemFromCart" duration-ms="120066" started-at="2020-11-20T02:49:01Z" finished-at="2020-11-20T02:51:01Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".restaurant-info .remove-all"}
@@ -201,8 +201,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:32491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ebfb76ba66069a79978cc9f5627cf71f
 *** Element info: {Using=css selector, value=.restaurant-info .remove-all}]]>
             </message>
             <full-stacktrace>
@@ -212,8 +212,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:32491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ebfb76ba66069a79978cc9f5627cf71f
 *** Element info: {Using=css selector, value=.restaurant-info .remove-all}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -266,7 +266,7 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteAllItemFromCart -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="470" started-at="2020-11-20T02:45:04Z" finished-at="2020-11-20T02:45:04Z">
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="621" started-at="2020-11-20T02:51:01Z" finished-at="2020-11-20T02:51:02Z">
           <params>
             <param index="0">
               <value>
@@ -277,7 +277,7 @@ Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="QuitDriver" is-config="true" duration-ms="897" started-at="2020-11-20T02:45:04Z" finished-at="2020-11-20T02:45:05Z">
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="QuitDriver" is-config="true" duration-ms="819" started-at="2020-11-20T02:51:02Z" finished-at="2020-11-20T02:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitDriver -->

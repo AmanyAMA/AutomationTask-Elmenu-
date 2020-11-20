@@ -6,3 +6,5 @@
 2020-11-20 02:47:00,719  INFO [main] secondEditOrderQuantity:50 - ********************** starting LoginViaFB testcase  ******************
 2020-11-20 02:49:01,346  INFO [main] Testbase:80 - ****************************** Taking screenshot on failuare  *****************************************
 2020-11-20 02:49:01,399  INFO [main] secondEditOrderQuantity:84 - ****************************** Starting DeleteAllItemFromCart test case *****************************************
+2020-11-20 02:51:02,086  INFO [main] Testbase:80 - ****************************** Taking screenshot on failuare  *****************************************
+2020-11-20 02:51:02,953  INFO [main] Testbase:67 - ****************************** Quit driver  *****************************************

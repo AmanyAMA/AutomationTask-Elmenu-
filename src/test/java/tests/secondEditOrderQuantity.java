@@ -65,7 +65,7 @@ public class secondEditOrderQuantity extends Testbase {
 		loctionObj.setDeliveryzone();
 		log.info("****************************** Ending SetDeliveryLocation test case *****************************************");
 	}
-
+//check edit quantity
 	@Test(dependsOnMethods= "SetDeliveryLocation",priority=5)
 	public void TestedititemsinCarts() throws InterruptedException 
 	{
