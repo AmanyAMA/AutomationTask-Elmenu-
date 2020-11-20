@@ -12,6 +12,7 @@ public class RestrauntDetailspage extends Pagebase {
 	
 	@FindBy(linkText="Chicken")
 	WebElement sideMenuItem;
+	
 	@FindBy(xpath="//*[@id='cat-3-0']/div[1]/div[2]")
 	WebElement CardItem;
 	
@@ -23,7 +24,7 @@ public class RestrauntDetailspage extends Pagebase {
 	@FindBy(css=".add-basket")//class="btn-primary add-basket"
 	WebElement addToCartBtn;
 	
-	@FindBy(css="div[class='resturant-name']>h1")
+	@FindBy(css=".resturant-name .title")
 	public WebElement RestTitle;
 
 	@FindBy(css=".quantity-btn.add")

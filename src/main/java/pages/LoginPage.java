@@ -20,8 +20,10 @@ public class LoginPage extends Pagebase {
 	WebElement FbPasswordTxt;
 	@FindBy(id="u_0_0")
 	WebElement FbLoginBtn;
-	@FindBy(css="div[id=basket-login-tab]>form>div>:nth-child(4)")
+	
+	@FindBy(css="#login-tab .fb-login-btn")
 	WebElement loginViaFbLink;
+	
 	@FindBy(css="button[name='__CONFIRM__']")
 	WebElement confirmFbLoginBtn;
 

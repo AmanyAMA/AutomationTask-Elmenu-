@@ -14,24 +14,16 @@ public class Location extends Pagebase{
 	@FindBy(xpath="//*[@class='area-zone-search']/label/input")
 	WebElement delveryAreatext;
 
-	@FindBy(css="div[class^='area-search']>label>:nth-child(2)")
-	WebElement delveryAreatext2;
-
-	@FindBy(xpath="//*[@id='areas-list']/li/button")
+	@FindBy(css=".area-btn")
 	//"ul[id='areas-list']"
 	List<WebElement> arealist;
 
-	@FindBy(css="div[id='zones-list']>ul>li>button")
+	@FindBy(css=".zone-btn")
 	//-div[id='zones-list']>ul>li:nth-child(2)>button
 	List<WebElement>zonelist;
 
 	@FindBy(css="div[class$='side-content']>div>div>div>div>a>h3")
 	public WebElement LocationMessage;
-
-	@FindBy(css="div[class$='side-content']>div>div>div>div>:nth-child(2)>button")
-	WebElement SetLocationButton;
-
-
 
 	public void setDeliveryAreaText(String Area) throws InterruptedException 
 	{

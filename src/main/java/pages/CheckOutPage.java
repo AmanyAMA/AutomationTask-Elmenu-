@@ -25,16 +25,16 @@ public class CheckOutPage extends Pagebase {
 	@FindBy(css="ul[class='addresses-list']>li>div>button")
 	WebElement addressDeliverBtn;
 	
-	@FindBy(css="div[class=order-summary]>div>button")
+	@FindBy(css=".place-order-btn")
 	WebElement PlaceOrderBtn;
 	
 	@FindBy(css="div[class^='basket-container']>div>:nth-child(2)")
 	public WebElement AddtoCartMsg;
 	
-	@FindBy(css="div[class$='step-2-side-content']>div>:nth-child(2)>h4")
+	@FindBy(css=".order-summary .summary-title")
 	public WebElement ChekouttMsg;
 	
-	@FindBy(css="div[class^='act-table-cell']>div>h5>a")
+	@FindBy(css=".item-title>a")
 	public WebElement editCartItem;
 		
 	

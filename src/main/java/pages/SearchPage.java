@@ -13,12 +13,12 @@ public class SearchPage extends Pagebase {
 		super(driver);
 	}
 	
-	 @FindBy(css="form[class='search-form']>div>div>div>input")
+	 @FindBy(css=".input-holder>:nth-child(2)")
 	 WebElement searchTxtBox;
 	 @FindBy(css="ul.autocomplete-list")
 	 WebElement SearchAutoCompleteList;
 	 
-	 @FindBy(css="button[type='submit'][class='submit-btn btn btn-primary']")
+	 @FindBy(css=".search-form .submit-btn")
 	 WebElement serachBtn;
 	 
 	 @FindBy (css="h3.card-title")

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="2" failed="2" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29542" started-at="2020-11-19T23:55:39Z" finished-at="2020-11-19T23:56:08Z">
+  <suite name="Default suite" duration-ms="258848" started-at="2020-11-20T00:40:45Z" finished-at="2020-11-20T00:45:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29542" started-at="2020-11-19T23:55:39Z" finished-at="2020-11-19T23:56:08Z">
-      <class name="tests.FirstOrderNewUser">
-        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="StartDriver" is-config="true" duration-ms="9955" started-at="2020-11-20T01:55:29Z" finished-at="2020-11-20T01:55:39Z">
+    <test name="Default test" duration-ms="258848" started-at="2020-11-20T00:40:45Z" finished-at="2020-11-20T00:45:04Z">
+      <class name="tests.secondEditOrderQuantity">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="StartDriver" is-config="true" duration-ms="9926" started-at="2020-11-20T02:40:35Z" finished-at="2020-11-20T02:40:45Z">
           <params>
             <param index="0">
               <value>
@@ -18,83 +18,270 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="USerCanNormalLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.FirstOrderNewUser@159f197]" name="USerCanNormalLogin" duration-ms="4427" started-at="2020-11-20T01:55:39Z" data-provider="Excel" finished-at="2020-11-20T01:55:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amany_ated001@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aa@123456]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="NavigateTOrestDetails()[pri:1, instance:tests.secondEditOrderQuantity@193932a]" name="NavigateTOrestDetails" duration-ms="1802" started-at="2020-11-20T02:40:45Z" finished-at="2020-11-20T02:40:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- USerCanNormalLogin -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="9" started-at="2020-11-20T01:55:44Z" finished-at="2020-11-20T01:55:44Z">
+        </test-method> <!-- NavigateTOrestDetails -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="22" started-at="2020-11-20T02:40:47Z" finished-at="2020-11-20T02:40:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=USerCanNormalLogin status=SUCCESS method=FirstOrderNewUser.USerCanNormalLogin(java.lang.String, java.lang.String)[pri:1, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
+                <![CDATA[[TestResult name=NavigateTOrestDetails status=SUCCESS method=secondEditOrderQuantity.NavigateTOrestDetails()[pri:1, instance:tests.secondEditOrderQuantity@193932a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="UserCanSearchRest()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanSearchRest" duration-ms="8277" started-at="2020-11-20T01:55:44Z" depends-on-methods="tests.FirstOrderNewUser.USerCanNormalLogin" finished-at="2020-11-20T01:55:52Z">
+        <test-method status="PASS" signature="TestaddingitemstoCarts()[pri:2, instance:tests.secondEditOrderQuantity@193932a]" name="TestaddingitemstoCarts" duration-ms="15621" started-at="2020-11-20T02:40:47Z" finished-at="2020-11-20T02:41:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanSearchRest -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T01:55:52Z" finished-at="2020-11-20T01:55:52Z">
+        </test-method> <!-- TestaddingitemstoCarts -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="1" started-at="2020-11-20T02:41:03Z" finished-at="2020-11-20T02:41:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanSearchRest status=SUCCESS method=FirstOrderNewUser.UserCanSearchRest()[pri:0, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
+                <![CDATA[[TestResult name=TestaddingitemstoCarts status=SUCCESS method=secondEditOrderQuantity.TestaddingitemstoCarts()[pri:2, instance:tests.secondEditOrderQuantity@193932a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="UserChooseItemAddToCart()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserChooseItemAddToCart" duration-ms="15055" started-at="2020-11-20T01:55:52Z" depends-on-methods="tests.FirstOrderNewUser.UserCanSearchRest" finished-at="2020-11-20T01:56:07Z">
+        <test-method status="FAIL" signature="LoginViaFB()[pri:3, instance:tests.secondEditOrderQuantity@193932a]" name="LoginViaFB" duration-ms="120143" started-at="2020-11-20T02:41:03Z" finished-at="2020-11-20T02:43:03Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at pages.Pagebase.clickElment(Pagebase.java:17)
+	at pages.LoginPage.UserSwitchToFBToLogin(LoginPage.java:33)
+	at tests.secondEditOrderQuantity.LoginViaFB(secondEditOrderQuantity.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserChooseItemAddToCart -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="1" started-at="2020-11-20T01:56:07Z" finished-at="2020-11-20T01:56:07Z">
+        </test-method> <!-- LoginViaFB -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="464" started-at="2020-11-20T02:43:03Z" finished-at="2020-11-20T02:43:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserChooseItemAddToCart status=SUCCESS method=FirstOrderNewUser.UserChooseItemAddToCart()[pri:0, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
+                <![CDATA[[TestResult name=LoginViaFB status=FAILURE method=secondEditOrderQuantity.LoginViaFB()[pri:3, instance:tests.secondEditOrderQuantity@193932a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="UserCanCheckout()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="UserCanCheckout" duration-ms="1093" started-at="2020-11-20T01:56:07Z" depends-on-methods="tests.FirstOrderNewUser.UserChooseItemAddToCart" finished-at="2020-11-20T01:56:08Z">
+        <test-method status="SKIP" signature="SetDeliveryLocation()[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="SetDeliveryLocation" duration-ms="0" started-at="2020-11-20T02:43:03Z" depends-on-methods="tests.secondEditOrderQuantity.LoginViaFB" finished-at="2020-11-20T02:43:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method secondEditOrderQuantity.SetDeliveryLocation()[pri:0, instance:tests.secondEditOrderQuantity@193932a] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method secondEditOrderQuantity.SetDeliveryLocation()[pri:0, instance:tests.secondEditOrderQuantity@193932a] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1028)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanCheckout -->
-        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="screanShotOnFaulier" is-config="true" duration-ms="2" started-at="2020-11-20T01:56:08Z" finished-at="2020-11-20T01:56:08Z">
+        </test-method> <!-- SetDeliveryLocation -->
+        <test-method status="SKIP" signature="TestedititemsinCarts()[pri:5, instance:tests.secondEditOrderQuantity@193932a]" name="TestedititemsinCarts" duration-ms="0" started-at="2020-11-20T02:43:03Z" depends-on-methods="tests.secondEditOrderQuantity.SetDeliveryLocation" finished-at="2020-11-20T02:43:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method secondEditOrderQuantity.TestedititemsinCarts()[pri:5, instance:tests.secondEditOrderQuantity@193932a] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method secondEditOrderQuantity.TestedititemsinCarts()[pri:5, instance:tests.secondEditOrderQuantity@193932a] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1028)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestedititemsinCarts -->
+        <test-method status="FAIL" signature="DeleteAllItemFromCart()[pri:6, instance:tests.secondEditOrderQuantity@193932a]" name="DeleteAllItemFromCart" duration-ms="120131" started-at="2020-11-20T02:43:03Z" finished-at="2020-11-20T02:45:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".restaurant-info .remove-all"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
+*** Element info: {Using=css selector, value=.restaurant-info .remove-all}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".restaurant-info .remove-all"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5K4HR8N', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:31992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e6d3f8d7232e80c3ab7b7c6aa971eda
+*** Element info: {Using=css selector, value=.restaurant-info .remove-all}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at pages.Pagebase.clickElment(Pagebase.java:17)
+	at pages.CheckOutPage.RemoveAllitemFromcart(CheckOutPage.java:64)
+	at tests.secondEditOrderQuantity.DeleteAllItemFromCart(secondEditOrderQuantity.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAllItemFromCart -->
+        <test-method status="PASS" signature="screanShotOnFaulier(org.testng.ITestResult)[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="screanShotOnFaulier" is-config="true" duration-ms="470" started-at="2020-11-20T02:45:04Z" finished-at="2020-11-20T02:45:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanCheckout status=SUCCESS method=FirstOrderNewUser.UserCanCheckout()[pri:0, instance:tests.FirstOrderNewUser@159f197] output={null}]]]>
+                <![CDATA[[TestResult name=DeleteAllItemFromCart status=FAILURE method=secondEditOrderQuantity.DeleteAllItemFromCart()[pri:6, instance:tests.secondEditOrderQuantity@193932a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screanShotOnFaulier -->
-        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.FirstOrderNewUser@159f197]" name="QuitDriver" is-config="true" duration-ms="823" started-at="2020-11-20T01:56:08Z" finished-at="2020-11-20T01:56:09Z">
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:tests.secondEditOrderQuantity@193932a]" name="QuitDriver" is-config="true" duration-ms="897" started-at="2020-11-20T02:45:04Z" finished-at="2020-11-20T02:45:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitDriver -->
-      </class> <!-- tests.FirstOrderNewUser -->
+      </class> <!-- tests.secondEditOrderQuantity -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
